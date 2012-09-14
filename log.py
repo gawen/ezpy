@@ -83,11 +83,6 @@ LEVEL_NAMES = {
 
 class context(object):
     def __init__(self, logger, message, level = None):
-        print self
-        print logger
-        print message
-        print level
-        print
         level = level if level is not None else INFO
         assert len(message)
         
